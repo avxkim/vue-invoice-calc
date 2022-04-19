@@ -1,5 +1,6 @@
 const bootstrapSassAbstractsImports = require('vue-cli-plugin-bootstrap-vue/sassAbstractsImports.js')
 module.exports = {
+  transpileDependencies: ['vuex-persist'],
   css: {
     loaderOptions: {
       sass: {

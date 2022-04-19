@@ -15,7 +15,10 @@
     "mutationobserver-shim": "^0.3.7",
     "popper.js": "^1.16.1",
     "portal-vue": "^2.1.7",
-    "vue": "^2.6.11"
+    "uuid": "^8.3.2",
+    "vue": "^2.6.11",
+    "vuex": "^3.6.2",
+    "vuex-persist": "^3.1.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
