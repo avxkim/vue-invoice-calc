@@ -102,6 +102,6 @@ input[type='number'] {
 }
 
 .w-30 {
-  width: 30vw !important;
+  width: 500px !important;
 }
 </style>
