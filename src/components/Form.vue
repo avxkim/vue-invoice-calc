@@ -6,9 +6,11 @@
       </label>
       <b-form-input
         required
+        :type="input.type"
         :id="`inline-form-input-${input.id}`"
         :class="{
           'mr-2': idx < inputsSchema.length - 1,
+          'w-30': idx === 0,
         }"
         :placeholder="input.label"
         v-model="input.value"
@@ -88,3 +90,18 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style scoped>
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.w-30 {
+  width: 30vw !important;
+}
+</style>
